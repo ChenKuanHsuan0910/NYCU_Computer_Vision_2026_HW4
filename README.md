@@ -117,4 +117,3 @@ The script trains, runs inference with TTA, and packages the submission automati
 | + More epochs | ResidualConvBlock, ch=48 | 400 | L1 + Edge | 28.55 dB | 29.51 dB |
 | **Final** | **NAFBlock, ch=64** | **600** | **Charb + Edge + FFT** | **29.97 dB** | **31.35 dB** |
 
-Training log is saved to `outputs/runX/training_log.csv`.
